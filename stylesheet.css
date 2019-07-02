@@ -1,0 +1,29 @@
+body {
+  background-color: #fabfaf;
+  font-family: 'Happy Monkey', cursive;
+}
+
+
+h1 {
+  text-align: center;
+  text-shadow: #ff0066;
+}
+
+img.resize {
+  height:250px;
+}
+
+.thumbnail:hover {
+    position:relative;
+    padding:50px;
+    left:50px;
+    width:200px;
+    height:200px;
+    display:block;
+    z-index:1000px;
+    transition: transform .2s
+}
+
+/* .zoom:hover {
+  -ms-transfom: scale(-1.5);
+  -webkit-transforom: scale(1.5); */
